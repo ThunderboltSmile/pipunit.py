@@ -48,5 +48,4 @@ class PipWorkUnit:
             self.ferr(self.step)
             self.status = False
         finally:
-            self.fcb(self.step) 
-            self = None
+            self.fcb(self.step)
