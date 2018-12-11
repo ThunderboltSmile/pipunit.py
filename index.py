@@ -26,7 +26,6 @@ class PipWorkUnit:
             self.status = False
             log.info(e)
             self.ferr(int(self.step))
-            # sys.exit()
         finally:
             self.fcb(self.step)
             return self
